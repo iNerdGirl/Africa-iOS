@@ -53,6 +53,8 @@
 		8C0F9DBB28501FB30050276B /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F9DB928501FB30050276B /* CoverImageView.swift */; };
 		8C0F9DBE285021C70050276B /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F9DBD285021C70050276B /* CoverImageModel.swift */; };
 		8C0F9DBF285021C70050276B /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F9DBD285021C70050276B /* CoverImageModel.swift */; };
+		8C0F9DC2285026160050276B /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F9DC1285026160050276B /* CodableBundleExtension.swift */; };
+		8C0F9DC3285026160050276B /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F9DC1285026160050276B /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,7 @@
 		8C0F9DB528501DB30050276B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8C0F9DB928501FB30050276B /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		8C0F9DBD285021C70050276B /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		8C0F9DC1285026160050276B /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		8C0F9D5F285018BD0050276B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8C0F9DC0285026030050276B /* Extension */,
 				8C0F9DBC2850218F0050276B /* Model */,
 				8C0F9DB828501FA40050276B /* View */,
 				8C0F9D9D28501B540050276B /* Data */,
@@ -198,6 +202,14 @@
 				8C0F9DBD285021C70050276B /* CoverImageModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8C0F9DC0285026030050276B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F9DC1285026160050276B /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +346,7 @@
 				8C0F9D70285018BD0050276B /* AfricaApp.swift in Sources */,
 				8C0F9DAD28501D490050276B /* VideoListView.swift in Sources */,
 				8C0F9DB328501DA30050276B /* GalleryView.swift in Sources */,
+				8C0F9DC2285026160050276B /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +362,7 @@
 				8C0F9D71285018BD0050276B /* AfricaApp.swift in Sources */,
 				8C0F9DAE28501D490050276B /* VideoListView.swift in Sources */,
 				8C0F9DB428501DA30050276B /* GalleryView.swift in Sources */,
+				8C0F9DC3285026160050276B /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
